@@ -14,7 +14,7 @@ if ($_POST) $post=1;
 //Simple server side validation for POST data, of course, you should validate the email
 if (!$name) $errors[count($errors)] = 'Please enter your name.';
 if (!$email) $errors[count($errors)] = 'Please enter your email.'; 
-if (!$comment) $errors[count($errors)] = 'Please enter your comment.'; 
+if (!$comment) $errors[count($errors)] = 'Please enter your comments.'; 
 
 //if the errors array is empty, send the mail
 if (!$errors) {
